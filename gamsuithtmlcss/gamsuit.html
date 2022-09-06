@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--link ke file CSS dan bootstrap-->
+    <link rel="stylesheet" href="gamsuit.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!--Menambahkan script online javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title>Challenge Chapter 4</title>
+
+<!--Menambahkan Header Pada Web Page-->
+<nav class="navbar navbar-light">
+  <div class="container-fluid" style="margin-left: 0pt;">
+    <a class="navbar-brand" href="#" >
+      <img src="./Asset/LOGO BACK.jpg" alt="" width="75" height="75" class="d-inline-block align-text-top">
+    </a>
+    ROCK PAPER SCRISSOR GAME  	
+  </div>
+</nav>
+</head>
+
+<body style="background-color: #9b845f;">
+<!--menambahkan score board-->
+<div class="score-board">
+  <div id="player-label" class="badge">Player</div>
+  <div id="computer-label" class="badge">Computer</div>
+  <span id="player-score">0</span>:<span id="computer-score">0</span>
+  <h1  class="result">&#9996; &#9995; &#9994;Gunting, kertas, batu, GAMSUIT!!!</h1>
+</div>
+
+<!--Menambahkan gambar gunting kertas batu dengan GRID Styling-->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1> PLAYER 1</h1>
+    </div>
+    <div class="col order-12">
+      <H1> COMPUTER </H1>
+    </div>
+  </div>
+</div>  
+
+<!--MENAMBAHKAN GUNTING KERTAS BATU PADA TAMPILAN-->
+<div class="container">
+    <div class="row">
+      <div class="col" id="batu">
+       <img class="choice" src="./Asset/batu.png" alt="" width="100px" height="100px" >
+      </div>
+      <div class="col order-12" style="transform: translate(35%,0%);">
+        <img src="./Asset/batu.png" alt="" width="100px" height="100px">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col " id="kertas">
+        <img class="choice" src="./Asset/kertas.png" alt="" width="100px" height="100px">
+      </div>
+      <div class="col order-1">
+        <h1>VS</h1>
+      </div>
+      <div class="col order-12">
+        <img src="./Asset/kertas.png" alt="" width="100px" height="100px">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col" id="gunting" >
+        <img class="choice" src="./Asset/gunting.png" alt="" width="100px" height="100px">
+      </div>
+      <div class="col order-12" style="transform: translate(35%,0%);">
+        <img src="./Asset/gunting.png" alt="" width="100px" height="100px">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <a href=#> <img src="./Asset/refresh.png" alt="" width="100px" height="100px" style="transform: translate(175%,0%);">
+    </a>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!--membuat link file html ke file javascript-->
+<script src="gamsuit.js"></script>
+</body>
+</html>

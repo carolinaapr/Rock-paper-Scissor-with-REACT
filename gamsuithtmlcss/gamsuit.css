@@ -1,0 +1,64 @@
+.navbar {
+  color: yellow;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  margin-right: 995px;
+  display: inline-block;
+  position: static;
+
+}
+
+.choice {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.choice:hover{
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+.result {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  text-align:center;
+  position: static  ;
+}
+
+.score-board {
+  color: yellow;
+  margin: 20px auto;
+  border: 5px solid whitesmoke;
+  border-radius: 4px;
+  text-align: center;
+  width: 250px;
+  font-size: 20px;
+  padding: 15px 20px;
+  font-family: 'Trebuchet MS';
+  position: relative;
+}
+
+.badge{
+  background:burlywood ;
+  color: white;
+  font-size: 14px;
+  padding: 2px;
+  font-family:'Trebuchet MS';
+  font-weight: bold;
+}
+
+#player-label {
+  position: absolute;
+  top: 20px;
+  left: -40px;
+}
+#computer-label {
+  position: absolute;
+  top: 20px;
+  right: -25px;
+}
+
